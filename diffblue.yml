@@ -1,0 +1,625 @@
+cbmcArguments:
+  # Do not generate coverage comments on generated tests.
+  java-generate-no-comments: true
+units:
+  # Target Coverage: Unknown %
+  - target:
+    - dir: wsagent/che-core-api-project/target/classes
+      file: org/eclipse/che/api/project/server/ProjectImporter.class
+      sourceDir: wsagent/che-core-api-project/src/main/java
+      sourceFile: org/eclipse/che/api/project/server/ProjectImporter.java
+    # Child of ProjectImporter.class
+    # Child Coverage: Unknown %
+    - dir: core/che-core-api-model/target/classes
+      file: org/eclipse/che/api/core/model/workspace/config/SourceStorage.class
+      sourceDir: core/che-core-api-model/src/main/java
+      sourceFile: org/eclipse/che/api/core/model/workspace/config/SourceStorage.java
+  # Target Coverage: Unknown %
+  - target:
+    - dir: multiuser/keycloak/che-multiuser-keycloak-ide/target/classes
+      file: org/eclipse/che/multiuser/keycloak/ide/KeycloakProvider.class
+      sourceDir: multiuser/keycloak/che-multiuser-keycloak-ide/src/main/java
+      sourceFile: org/eclipse/che/multiuser/keycloak/ide/KeycloakProvider.java
+    # Child of KeycloakProvider.class
+    # Child Coverage: Unknown %
+    - dir: ide/commons-gwt/target/classes
+      file: org/eclipse/che/api/promises/client/FunctionException.class
+      sourceDir: ide/commons-gwt/target/classes
+      sourceFile: org/eclipse/che/api/promises/client/FunctionException.java
+    # Child of KeycloakProvider.class
+    # Child Coverage: Unknown %
+    - dir: ide/commons-gwt/target/classes
+      file: org/eclipse/che/api/promises/client/Function.class
+      sourceDir: ide/commons-gwt/target/classes
+      sourceFile: org/eclipse/che/api/promises/client/Function.java
+    # Child of KeycloakProvider.class
+    # Child Coverage: Unknown %
+    - dir: ide/commons-gwt/target/classes
+      file: org/eclipse/che/api/promises/client/Promise.class
+      sourceDir: ide/commons-gwt/target/classes
+      sourceFile: org/eclipse/che/api/promises/client/Promise.java
+    # Child of KeycloakProvider.class
+    # Child Coverage: Unknown %
+    - dir: multiuser/keycloak/che-multiuser-keycloak-shared/target/classes
+      file: org/eclipse/che/multiuser/keycloak/shared/KeycloakConstants.class
+      sourceDir: multiuser/keycloak/che-multiuser-keycloak-shared/src/main/java
+      sourceFile: org/eclipse/che/multiuser/keycloak/shared/KeycloakConstants.java
+    # Child of KeycloakProvider.class
+    # Child Coverage: Unknown %
+    - dir: ide/commons-gwt/target/classes
+      file: org/eclipse/che/ide/json/JsonHelper.class
+      sourceDir: ide/commons-gwt/target/classes
+      sourceFile: org/eclipse/che/ide/json/JsonHelper.java
+    # Child of KeycloakProvider.class
+    # Child Coverage: Unknown %
+    - dir: multiuser/keycloak/che-multiuser-keycloak-ide/target/classes
+      file: org/eclipse/che/multiuser/keycloak/ide/Keycloak.class
+      sourceDir: multiuser/keycloak/che-multiuser-keycloak-ide/src/main/java
+      sourceFile: org/eclipse/che/multiuser/keycloak/ide/Keycloak.java
+    # Child of KeycloakProvider.class
+    # Child Coverage: Unknown %
+    - dir: ide/commons-gwt/target/classes
+      file: org/eclipse/che/ide/util/loging/Log.class
+      sourceDir: ide/commons-gwt/target/classes
+      sourceFile: org/eclipse/che/ide/util/loging/Log.java
+    # Child of KeycloakProvider.class
+    # Child Coverage: Unknown %
+    - dir: ide/commons-gwt/target/classes
+      file: org/eclipse/che/api/promises/client/callback/CallbackPromiseHelper.class
+      sourceDir: ide/commons-gwt/target/classes
+      sourceFile: org/eclipse/che/api/promises/client/callback/CallbackPromiseHelper.java
+  # Target Coverage: Unknown %
+  - target:
+    - dir: core/commons/che-core-commons-inject/target/classes
+      file: org/eclipse/che/inject/lifecycle/InitModule.class
+      sourceDir: core/commons/che-core-commons-inject/src/main/java
+      sourceFile: org/eclipse/che/inject/lifecycle/InitModule.java
+    # Child of InitModule.class
+    # Child Coverage: Unknown %
+    - dir: core/commons/che-core-commons-inject/target/classes
+      file: org/eclipse/che/inject/lifecycle/LifecycleModule.class
+      sourceDir: core/commons/che-core-commons-inject/src/main/java
+      sourceFile: org/eclipse/che/inject/lifecycle/LifecycleModule.java
+  # Target Coverage: Unknown %
+  - target:
+    - dir: ide/commons-gwt/target/classes
+      file: org/eclipse/che/security/oauth/JsOAuthWindow.class
+      sourceDir: ide/commons-gwt/target/classes
+      sourceFile: org/eclipse/che/security/oauth/JsOAuthWindow.java
+    # Child of JsOAuthWindow.class
+    # Child Coverage: Unknown %
+    - dir: ide/commons-gwt/target/classes
+      file: org/eclipse/che/security/oauth/OAuthCallback.class
+      sourceDir: ide/commons-gwt/target/classes
+      sourceFile: org/eclipse/che/security/oauth/OAuthCallback.java
+    # Child of JsOAuthWindow.class
+    # Child Coverage: Unknown %
+    - dir: ide/commons-gwt/target/classes
+      file: org/eclipse/che/security/oauth/SecurityTokenProvider.class
+      sourceDir: ide/commons-gwt/target/classes
+      sourceFile: org/eclipse/che/security/oauth/SecurityTokenProvider.java
+    # Child of JsOAuthWindow.class
+    # Child Coverage: Unknown %
+    - dir: ide/commons-gwt/target/classes
+      file: org/eclipse/che/security/oauth/OAuthStatus.class
+      sourceDir: ide/commons-gwt/target/classes
+      sourceFile: org/eclipse/che/security/oauth/OAuthStatus.java
+    # Child of JsOAuthWindow.class
+    # Child Coverage: Unknown %
+    - dir: ide/commons-gwt/target/classes
+      file: org/eclipse/che/api/promises/client/Operation.class
+      sourceDir: ide/commons-gwt/target/classes
+      sourceFile: org/eclipse/che/api/promises/client/Operation.java
+  # Target Coverage: Unknown %
+  - target:
+    - dir: ide/commons-gwt/target/classes
+      file: org/eclipse/che/security/oauth/JsOAuthWindow.class
+      sourceDir: ide/commons-gwt/target/classes
+      sourceFile: org/eclipse/che/security/oauth/JsOAuthWindow.java
+  # Target Coverage: Unknown %
+  - target:
+    - dir: plugins/plugin-maven/che-plugin-maven-ide/target/classes
+      file: org/eclipse/che/plugin/maven/client/wizard/MavenPagePresenter.class
+      sourceDir: plugins/plugin-maven/che-plugin-maven-ide/src/main/java
+      sourceFile: org/eclipse/che/plugin/maven/client/wizard/MavenPagePresenter.java
+    # Child of MavenPagePresenter.class
+    # Child Coverage: Unknown %
+    - dir: plugins/plugin-maven/che-plugin-maven-ide/target/classes
+      file: org/eclipse/che/plugin/maven/client/wizard/MavenPageView.class
+      sourceDir: plugins/plugin-maven/che-plugin-maven-ide/src/main/java
+      sourceFile: org/eclipse/che/plugin/maven/client/wizard/MavenPageView.java
+    # Child of MavenPagePresenter.class
+    # Child Coverage: Unknown %
+    - dir: ide/commons-gwt/target/classes
+      file: org/eclipse/che/api/promises/client/OperationException.class
+      sourceDir: ide/commons-gwt/target/classes
+      sourceFile: org/eclipse/che/api/promises/client/OperationException.java
+    # Child of MavenPagePresenter.class
+    # Child Coverage: Unknown %
+    - dir: plugins/plugin-maven/che-plugin-maven-ide/target/classes
+      file: org/eclipse/che/plugin/maven/client/MavenLocalizationConstant.class
+      sourceDir: plugins/plugin-maven/che-plugin-maven-ide/src/main/java
+      sourceFile: org/eclipse/che/plugin/maven/client/MavenLocalizationConstant.java
+    # Child of MavenPagePresenter.class
+    # Child Coverage: Unknown %
+    - dir: ide/commons-gwt/target/classes
+      file: org/eclipse/che/api/promises/client/PromiseError.class
+      sourceDir: ide/commons-gwt/target/classes
+      sourceFile: org/eclipse/che/api/promises/client/PromiseError.java
+    # Child of MavenPagePresenter.class
+    # Child Coverage: Unknown %
+    - dir: plugins/plugin-java/che-plugin-java-ext-lang-shared/target/classes
+      file: org/eclipse/che/ide/ext/java/shared/Constants.class
+      sourceDir: plugins/plugin-java/che-plugin-java-ext-lang-shared/src/main/java
+      sourceFile: org/eclipse/che/ide/ext/java/shared/Constants.java
+    # Child of MavenPagePresenter.class
+    # Child Coverage: Unknown %
+    - dir: ide/commons-gwt/target/classes
+      file: org/eclipse/che/ide/resource/Path.class
+      sourceDir: ide/commons-gwt/target/classes
+      sourceFile: org/eclipse/che/ide/resource/Path.java
+    # Child of MavenPagePresenter.class
+    # Child Coverage: Unknown %
+    - dir: plugins/plugin-maven/che-plugin-maven-ide/target/classes
+      file: org/eclipse/che/plugin/maven/client/MavenArchetype.class
+      sourceDir: plugins/plugin-maven/che-plugin-maven-ide/src/main/java
+      sourceFile: org/eclipse/che/plugin/maven/client/MavenArchetype.java
+    # Child of MavenPagePresenter.class
+    # Child Coverage: Unknown %
+    - dir: ide/che-core-ide-ui/target/classes
+      file: org/eclipse/che/ide/ui/dialogs/DialogFactory.class
+      sourceDir: ide/che-core-ide-ui/src/main/java
+      sourceFile: org/eclipse/che/ide/ui/dialogs/DialogFactory.java
+    # Child of MavenPagePresenter.class
+    # Child Coverage: Unknown %
+    - dir: plugins/plugin-maven/che-plugin-maven-ide/target/classes
+      file: org/eclipse/che/plugin/maven/client/MavenExtension.class
+      sourceDir: plugins/plugin-maven/che-plugin-maven-ide/src/main/java
+      sourceFile: org/eclipse/che/plugin/maven/client/MavenExtension.java
+  # Target Coverage: Unknown %
+  - target:
+    - dir: infrastructures/kubernetes/target/classes
+      file: org/eclipse/che/workspace/infrastructure/kubernetes/provision/server/ServersConverter.class
+      sourceDir: infrastructures/kubernetes/src/main/java
+      sourceFile: org/eclipse/che/workspace/infrastructure/kubernetes/provision/server/ServersConverter.java
+    # Child of ServersConverter.class
+    # Child Coverage: Unknown %
+    - dir: core/commons/che-core-commons-annotations/target/classes
+      file: org/eclipse/che/commons/annotation/Traced.class
+      sourceDir: core/commons/che-core-commons-annotations/src/main/java
+      sourceFile: org/eclipse/che/commons/annotation/Traced.java
+    # Child of ServersConverter.class
+    # Child Coverage: Unknown %
+    - dir: core/commons/che-core-commons-tracing/target/classes
+      file: org/eclipse/che/commons/tracing/AnnotationAwareStringTag.class
+      sourceDir: core/commons/che-core-commons-tracing/src/main/java
+      sourceFile: org/eclipse/che/commons/tracing/AnnotationAwareStringTag.java
+    # Child of ServersConverter.class
+    # Child Coverage: Unknown %
+    - dir: infrastructures/kubernetes/target/classes
+      file: org/eclipse/che/workspace/infrastructure/kubernetes/Names.class
+      sourceDir: infrastructures/kubernetes/src/main/java
+      sourceFile: org/eclipse/che/workspace/infrastructure/kubernetes/Names.java
+    # Child of ServersConverter.class
+    # Child Coverage: Unknown %
+    - dir: wsmaster/che-core-api-workspace/target/classes
+      file: org/eclipse/che/api/workspace/server/spi/environment/InternalMachineConfig.class
+      sourceDir: wsmaster/che-core-api-workspace/src/main/java
+      sourceFile: org/eclipse/che/api/workspace/server/spi/environment/InternalMachineConfig.java
+    # Child of ServersConverter.class
+    # Child Coverage: Unknown %
+    - dir: wsmaster/che-core-api-workspace/target/classes
+      file: org/eclipse/che/api/workspace/server/spi/InfrastructureException.class
+      sourceDir: wsmaster/che-core-api-workspace/src/main/java
+      sourceFile: org/eclipse/che/api/workspace/server/spi/InfrastructureException.java
+    # Child of ServersConverter.class
+    # Child Coverage: Unknown %
+    - dir: infrastructures/kubernetes/target/classes
+      file: org/eclipse/che/workspace/infrastructure/kubernetes/server/secure/SecureServerExposerFactory.class
+      sourceDir: infrastructures/kubernetes/src/main/java
+      sourceFile: org/eclipse/che/workspace/infrastructure/kubernetes/server/secure/SecureServerExposerFactory.java
+    # Child of ServersConverter.class
+    # Child Coverage: Unknown %
+    - dir: infrastructures/kubernetes/target/classes
+      file: org/eclipse/che/workspace/infrastructure/kubernetes/server/secure/SecureServerExposer.class
+      sourceDir: infrastructures/kubernetes/src/main/java
+      sourceFile: org/eclipse/che/workspace/infrastructure/kubernetes/server/secure/SecureServerExposer.java
+    # Child of ServersConverter.class
+    # Child Coverage: Unknown %
+    - dir: infrastructures/kubernetes/target/classes
+      file: org/eclipse/che/workspace/infrastructure/kubernetes/provision/ConfigurationProvisioner.class
+      sourceDir: infrastructures/kubernetes/src/main/java
+      sourceFile: org/eclipse/che/workspace/infrastructure/kubernetes/provision/ConfigurationProvisioner.java
+    # Child of ServersConverter.class
+    # Child Coverage: Unknown %
+    - dir: infrastructures/kubernetes/target/classes
+      file: org/eclipse/che/workspace/infrastructure/kubernetes/server/secure/SecureServerExposerFactoryProvider.class
+      sourceDir: infrastructures/kubernetes/src/main/java
+      sourceFile: org/eclipse/che/workspace/infrastructure/kubernetes/server/secure/SecureServerExposerFactoryProvider.java
+    # Child of ServersConverter.class
+    # Child Coverage: Unknown %
+    - dir: core/che-core-api-model/target/classes
+      file: org/eclipse/che/api/core/model/workspace/runtime/RuntimeIdentity.class
+      sourceDir: core/che-core-api-model/src/main/java
+      sourceFile: org/eclipse/che/api/core/model/workspace/runtime/RuntimeIdentity.java
+    # Child of ServersConverter.class
+    # Child Coverage: Unknown %
+    - dir: infrastructures/kubernetes/target/classes
+      file: org/eclipse/che/workspace/infrastructure/kubernetes/environment/KubernetesEnvironment.class
+      sourceDir: infrastructures/kubernetes/src/main/java
+      sourceFile: org/eclipse/che/workspace/infrastructure/kubernetes/environment/KubernetesEnvironment.java
+    # Child of ServersConverter.class
+    # Child Coverage: Unknown %
+    - dir: infrastructures/kubernetes/target/classes
+      file: org/eclipse/che/workspace/infrastructure/kubernetes/server/external/ExternalServerExposerStrategy.class
+      sourceDir: infrastructures/kubernetes/src/main/java
+      sourceFile: org/eclipse/che/workspace/infrastructure/kubernetes/server/external/ExternalServerExposerStrategy.java
+    # Child of ServersConverter.class
+    # Child Coverage: Unknown %
+    - dir: core/commons/che-core-commons-tracing/target/classes
+      file: org/eclipse/che/commons/tracing/TracingTags.class
+      sourceDir: core/commons/che-core-commons-tracing/src/main/java
+      sourceFile: org/eclipse/che/commons/tracing/TracingTags.java
+    # Child of ServersConverter.class
+    # Child Coverage: Unknown %
+    - dir: infrastructures/kubernetes/target/classes
+      file: org/eclipse/che/workspace/infrastructure/kubernetes/server/KubernetesServerExposer.class
+      sourceDir: infrastructures/kubernetes/src/main/java
+      sourceFile: org/eclipse/che/workspace/infrastructure/kubernetes/server/KubernetesServerExposer.java
+  # Target Coverage: Unknown %
+  - target:
+    - dir: infrastructures/docker/infrastructure/target/classes
+      file: org/eclipse/che/workspace/infrastructure/docker/provisioner/server/ServersConverter.class
+      sourceDir: infrastructures/docker/infrastructure/src/main/java
+      sourceFile: org/eclipse/che/workspace/infrastructure/docker/provisioner/server/ServersConverter.java
+    # Child of ServersConverter.class
+    # Child Coverage: Unknown %
+    - dir: core/che-core-api-model/target/classes
+      file: org/eclipse/che/api/core/model/workspace/config/ServerConfig.class
+      sourceDir: core/che-core-api-model/src/main/java
+      sourceFile: org/eclipse/che/api/core/model/workspace/config/ServerConfig.java
+    # Child of ServersConverter.class
+    # Child Coverage: Unknown %
+    - dir: infrastructures/docker/infrastructure/target/classes
+      file: org/eclipse/che/workspace/infrastructure/docker/DockerEnvironmentProvisioner.class
+      sourceDir: infrastructures/docker/infrastructure/src/main/java
+      sourceFile: org/eclipse/che/workspace/infrastructure/docker/DockerEnvironmentProvisioner.java
+    # Child of ServersConverter.class
+    # Child Coverage: Unknown %
+    - dir: infrastructures/docker/infrastructure/target/classes
+      file: org/eclipse/che/workspace/infrastructure/docker/model/DockerEnvironment.class
+      sourceDir: infrastructures/docker/infrastructure/src/main/java
+      sourceFile: org/eclipse/che/workspace/infrastructure/docker/model/DockerEnvironment.java
+    # Child of ServersConverter.class
+    # Child Coverage: Unknown %
+    - dir: infrastructures/docker/infrastructure/target/classes
+      file: org/eclipse/che/workspace/infrastructure/docker/Labels.class
+      sourceDir: infrastructures/docker/infrastructure/src/main/java
+      sourceFile: org/eclipse/che/workspace/infrastructure/docker/Labels.java
+    # Child of ServersConverter.class
+    # Child Coverage: Unknown %
+    - dir: infrastructures/docker/infrastructure/target/classes
+      file: org/eclipse/che/workspace/infrastructure/docker/model/DockerContainerConfig.class
+      sourceDir: infrastructures/docker/infrastructure/src/main/java
+      sourceFile: org/eclipse/che/workspace/infrastructure/docker/model/DockerContainerConfig.java
+  # Target Coverage: Unknown %
+  - target:
+    - dir: plugins/plugin-composer/che-plugin-composer-ide/target/classes
+      file: org/eclipse/che/plugin/composer/ide/project/ComposerPagePresenter.class
+      sourceDir: plugins/plugin-composer/che-plugin-composer-ide/src/main/java
+      sourceFile: org/eclipse/che/plugin/composer/ide/project/ComposerPagePresenter.java
+    # Child of ComposerPagePresenter.class
+    # Child Coverage: Unknown %
+    - dir: plugins/plugin-composer/che-plugin-composer-ide/target/classes
+      file: org/eclipse/che/plugin/composer/ide/project/ComposerPageView.class
+      sourceDir: plugins/plugin-composer/che-plugin-composer-ide/src/main/java
+      sourceFile: org/eclipse/che/plugin/composer/ide/project/ComposerPageView.java
+    # Child of ComposerPagePresenter.class
+    # Child Coverage: Unknown %
+    - dir: plugins/plugin-composer/che-plugin-composer-ide/target/classes
+      file: org/eclipse/che/plugin/composer/ide/ComposerLocalizationConstant.class
+      sourceDir: plugins/plugin-composer/che-plugin-composer-ide/src/main/java
+      sourceFile: org/eclipse/che/plugin/composer/ide/ComposerLocalizationConstant.java
+  # Target Coverage: Unknown %
+  - target:
+    - dir: ide/commons-gwt/target/classes
+      file: org/eclipse/che/requirejs/RequireJsLoader.class
+      sourceDir: ide/commons-gwt/target/classes
+      sourceFile: org/eclipse/che/requirejs/RequireJsLoader.java
+    # Child of RequireJsLoader.class
+    # Child Coverage: Unknown %
+    - dir: ide/commons-gwt/target/classes
+      file: org/eclipse/che/requirejs/RequirejsErrorHandler.class
+      sourceDir: ide/commons-gwt/target/classes
+      sourceFile: org/eclipse/che/requirejs/RequirejsErrorHandler.java
+    # Child of RequireJsLoader.class
+    # Child Coverage: Unknown %
+    - dir: ide/commons-gwt/target/classes
+      file: org/eclipse/che/requirejs/Requirejs.class
+      sourceDir: ide/commons-gwt/target/classes
+      sourceFile: org/eclipse/che/requirejs/Requirejs.java
+    # Child of RequireJsLoader.class
+    # Child Coverage: Unknown %
+    - dir: ide/commons-gwt/target/classes
+      file: org/eclipse/che/requirejs/ModuleHolder.class
+      sourceDir: ide/commons-gwt/target/classes
+      sourceFile: org/eclipse/che/requirejs/ModuleHolder.java
+    # Child of RequireJsLoader.class
+    # Child Coverage: Unknown %
+    - dir: ide/commons-gwt/target/classes
+      file: org/eclipse/che/requirejs/conf/RequirejsConfig.class
+      sourceDir: ide/commons-gwt/target/classes
+      sourceFile: org/eclipse/che/requirejs/conf/RequirejsConfig.java
+    # Child of RequireJsLoader.class
+    # Child Coverage: Unknown %
+    - dir: ide/commons-gwt/target/classes
+      file: org/eclipse/che/requirejs/RequirejsCallback.class
+      sourceDir: ide/commons-gwt/target/classes
+      sourceFile: org/eclipse/che/requirejs/RequirejsCallback.java
+phases:
+  -
+  #Phase 0 PRETTY AND SIMPLE - Simple models, quick cover, pretty Tests, Do Not Test Private Method Directly
+    timeout: 150
+    cbmcArguments:
+      # Use simple models containers (ArrayList, HashMap, HashSet,...) will have a maximum size of one.
+      classpath: '/tools/cbmc/models-simple-overlay.jar:/tools/cbmc/models.jar:.'
+      # Set a limit on the number of instructions that can be generated as part of a test trace.
+      depth: 1500
+      # never initialize reference-typed parameter to the entry point with null
+      java-assume-inputs-non-null: true
+      # Constrain the size of arrays created in the analyzed code.
+      java-max-vla-length: 48
+      # Maximum allowed length for an array passed as test input.
+      max-nondet-array-length: 10
+      # Bound the length of input strings.
+      max-nondet-string-length: 10
+      # Add constraint that strings are printable
+      string-printable: true
+      # Make implicit runtime exceptions explicit.
+      throw-runtime-exceptions: false
+      # Set an upper bound on loop unwinding.
+      unwind: 1
+      # Do not test any methods that have the specified access level.
+      do-not-test-methods-with-access: [ private ]
+      # Instrument the entry point function only.
+      cover-function-only: false
+      # instrument the file as opposed to the function only
+      cover-only: file
+      # <DEFINE>
+      refine: true
+  -
+  #Phase 1 PRETTY AND COMPLEX - Standard models, longer run time, pretty tests, Do Not Test Private Method Directly
+    timeout: 450
+    cbmcArguments:
+      # Use the standard models library
+      classpath: '/tools/cbmc/models.jar:.'
+      # Set a limit on the number of instructions that can be generated as part of a test trace.
+      depth: false
+      # never initialize reference-typed parameter to the entry point with null
+      java-assume-inputs-non-null: false
+      # Constrain the size of arrays created in the analyzed code.
+      java-max-vla-length: 48
+      # Maximum allowed length for an array passed as test input.
+      max-nondet-array-length: 10
+      # Bound the length of input strings.
+      max-nondet-string-length: 10
+      # Add constraint that strings are printable
+      string-printable: true
+      # Make implicit runtime exceptions explicit.
+      throw-runtime-exceptions: false
+      # Set an upper bound on loop unwinding.
+      unwind: 2
+      # Do not test any methods that have the specified access level.
+      do-not-test-methods-with-access: [ private ]
+      # Instrument the entry point function only.
+      cover-function-only: false
+      # instrument the file as opposed to the function only
+      cover-only: file
+      # <DEFINE>
+      refine: true
+  -
+  #Phase 2 COMPLEX - Standard models, longer run time, Do Not Test Private Method Directly
+    timeout: 300
+    cbmcArguments:
+      # Use the standard models library
+      classpath: '/tools/cbmc/models.jar:.'
+      # Set a limit on the number of instructions that can be generated as part of a test trace.
+      depth: false
+      # Constrain the size of arrays created in the analyzed code.
+      java-max-vla-length: 48
+      # Maximum allowed length for an array passed as test input.
+      max-nondet-array-length: 30
+      # Bound the length of input strings.
+      max-nondet-string-length: 30
+      # Make implicit runtime exceptions explicit.
+      throw-runtime-exceptions: false
+      # Set an upper bound on loop unwinding.
+      unwind: 3
+      # Do not test any methods that have the specified access level.
+      do-not-test-methods-with-access: [ private ]
+      # Instrument the entry point function only.
+      cover-function-only: false
+      # instrument the file as opposed to the function only
+      cover-only: file
+      # Allow up to N mutator calls after a test input constructor (default 0)
+      java-test-input-factory-bmc-max-mutators: 5
+      # If the logs contains output of the following then proceed to phase X
+  -
+  #Phase 3 Simple and Private Directly
+    timeout: 150
+    cbmcArguments:
+      # Use simple models containers (ArrayList, HashMap, HashSet,...) will have a maximum size of one.
+      classpath: '/tools/cbmc/models-simple-overlay.jar:/tools/cbmc/models.jar:.'
+      # Set a limit on the number of instructions that can be generated as part of a test trace.
+      depth: 1500
+      # never initialize reference-typed parameter to the entry point with null
+      java-assume-inputs-non-null: true
+      # Constrain the size of arrays created in the analyzed code.
+      java-max-vla-length: 48
+      # Maximum allowed length for an array passed as test input.
+      max-nondet-array-length: 10
+      # Bound the length of input strings.
+      max-nondet-string-length: 10
+      # Add constraint that strings are printable
+      string-printable: true
+      # Make implicit runtime exceptions explicit.
+      throw-runtime-exceptions: false
+      # Set an upper bound on loop unwinding.
+      unwind: 1
+    # If the logs contains output of the following then proceed to phase X
+  -
+  #Phase 4 Complex and Private Directly
+    timeout: 300
+    cbmcArguments:
+      # Use the standard models library.
+      classpath: '/tools/cbmc/models.jar:.'
+      # Set a limit on the number of instructions that can be generated as part of a test trace.
+      depth: 3000
+      # Constrain the size of arrays created in the analyzed code.
+      java-max-vla-length: 192
+      # Maximum allowed length for an array passed as test input.
+      max-nondet-array-length: 30
+      # Bound the length of input strings.
+      max-nondet-string-length: 30
+      # Make implicit runtime exceptions explicit.
+      throw-runtime-exceptions: false
+      # Set an upper bound on loop unwinding.
+      unwind: 3
+  -
+  #Phase 5 EXCEPTIONS
+    timeout: 300
+    cbmcArguments:
+      # Use the standard models library.
+      classpath: '/tools/cbmc/models.jar:.'
+      # Set a limit on the number of instructions that can be generated as part of a test trace.
+      depth: false
+      # Constrain the size of arrays created in the analyzed code.
+      java-max-vla-length: 192
+      # Maximum allowed length for an array passed as test input.
+      max-nondet-array-length: 30
+      # Bound the length of input strings.
+      max-nondet-string-length: 30
+      # Add constraint that strings are printable
+      string-printable: false
+      # Make implicit runtime exceptions explicit.
+      throw-runtime-exceptions: true
+      # Set an upper bound on loop unwinding.
+      unwind: 3
+  -
+  #PHASE 6 SIMPLE PRETTY MOCKING (CLASS)
+    timeout: 150
+    cbmcArguments:
+      # Use simple models containers (ArrayList, HashMap, HashSet,...) will have a maximum size of one.
+      classpath: '/tools/cbmc/models-simple-overlay.jar:/tools/cbmc/models.jar:.'
+      # Set a limit on the number of instructions that can be generated as part of a test trace.
+      depth: 1500
+      # never initialize reference-typed parameter to the entry point with null
+      java-assume-inputs-non-null: true
+      # Constrain the size of arrays created in the analyzed code.
+      java-max-vla-length: 48
+      # Only load the class (and related inner/outer classes) containing the method under test,
+      load-containing-class-only: true
+      # Maximum allowed length for an array passed as test input.
+      max-nondet-array-length: 10
+      # Bound the length of input strings.
+      max-nondet-string-length: 10
+      # Add constraint that strings are printable
+      string-printable: true
+      # Make implicit runtime exceptions explicit.
+      throw-runtime-exceptions: false
+      # Set an upper bound on loop unwinding.
+      unwind: 1
+  -
+    #PHASE 7 COMPLEX MOCKING (CLASS)
+    timeout: 300
+    cbmcArguments:
+      # Use simple models containers (ArrayList, HashMap, HashSet,...) will have a maximum size of one.
+      classpath: '/tools/cbmc/models.jar:.'
+      # Set a limit on the number of instructions that can be generated as part of a test trace.
+      depth: 3000
+      # never initialize reference-typed parameter to the entry point with null
+      java-assume-inputs-non-null: false
+      # Constrain the size of arrays created in the analyzed code.
+      java-max-vla-length:  192
+      # Only load the class (and related inner/outer classes) containing the method under test,
+      load-containing-class-only: true
+      # Maximum allowed length for an array passed as test input.
+      max-nondet-array-length: 30
+      # Bound the length of input strings.
+      max-nondet-string-length: 100
+      # Add constraint that strings are printable
+      string-printable: false
+      # Make implicit runtime exceptions explicit.
+      throw-runtime-exceptions: false
+      # Set an upper bound on loop unwinding.
+      unwind: 3
+  -
+    #PHASE 8 SIMPLE MOCKING (FUNCITON)
+    timeout: 150
+    cbmcArguments:
+      # Use simple models containers (ArrayList, HashMap, HashSet,...) will have a maximum size of one.
+      classpath: '/tools/cbmc/models-simple-overlay.jar:/tools/cbmc/models.jar:.'
+      # Set a limit on the number of instructions that can be generated as part of a test trace.
+      depth: 1500
+      # never initialize reference-typed parameter to the entry point with n
+      java-assume-inputs-non-null: true
+      # Constrain the size of arrays created in the analyzed code.
+      java-max-vla-length: 48
+      # Maximum allowed length for an array passed as test input.
+      max-nondet-array-length: 10
+      # Bound the length of input strings.
+      max-nondet-string-length: 10
+      # analyze the entry point function only
+      single-function-only: true
+      # Add constraint that strings are printable
+      string-printable: true
+      # Make implicit runtime exceptions explicit.
+      throw-runtime-exceptions: false
+      # Set an upper bound on loop unwinding.
+      unwind: 1
+  -
+    #PHASE 7 COMPLEX MOCKING (FUNCTION)
+    timeout: 300
+    cbmcArguments:
+      # Use simple models containers (ArrayList, HashMap, HashSet,...) will have a maximum size of one.
+      classpath: '/tools/cbmc/models.jar:.'
+      # Set a limit on the number of instructions that can be generated as part of a test trace.
+      depth: 3000
+      # never initialize reference-typed parameter to the entry point with null
+      java-assume-inputs-non-null: false
+      # Constrain the size of arrays created in the analyzed code.
+      java-max-vla-length:  192
+      # analyze the entry point function only
+      single-function-only: true
+      # Maximum allowed length for an array passed as test input.
+      max-nondet-array-length: 30
+      # Bound the length of input strings.
+      max-nondet-string-length: 100
+      # Add constraint that strings are printable
+      string-printable: false
+      # Make implicit runtime exceptions explicit.
+      throw-runtime-exceptions: false
+      # Set an upper bound on loop unwinding.
+      unwind: 3
+  -
+    #PHASE 10 BIG NUMBERS
+    timeout: 300
+    cbmcArguments:
+      # Use simple models containers (ArrayList, HashMap, HashSet,...) will have a maximum size of one.
+      classpath: '/tools/cbmc/models.jar:.'
+      # Set a limit on the number of instructions that can be generated as part of a test trace.
+      depth: false
+      # never initialize reference-typed parameter to the entry point with null
+      java-assume-inputs-non-null: false
+      # Constrain the size of arrays created in the analyzed code.
+      java-max-vla-length:  192
+      # Maximum allowed length for an array passed as test input.
+      max-nondet-array-length: 150
+      # Bound the length of input strings.
+      max-nondet-string-length: 150
+      # Add constraint that strings are printable
+      string-printable: false
+      # Make implicit runtime exceptions explicit.
+      throw-runtime-exceptions: false
+      # Set an upper bound on loop unwinding.
+      unwind: 6
